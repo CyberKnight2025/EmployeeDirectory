@@ -1,7 +1,7 @@
 # Employee Directory Management System
 
 ## Preview
-![Employee Directory Management System Screenshot](EmployeeDirectoryPreview.png)
+![Employee Directory Management System Screenshot](EmployeeDirectoryIU.png)
 
 ## Overview
 This is a **VB.NET Windows Forms Application** that connects to a SQL Server database and manages employee records.  
