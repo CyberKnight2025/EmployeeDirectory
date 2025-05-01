@@ -43,8 +43,11 @@ It allows users to **view, add, update, and delete** employee information using 
 | **CRUD Operations**              | Buttons exist, functionality implied                          | Basic button layout only                                |
 | **Error Handling (Try...Catch**) | Yes (structured)                                              | No                                                      |
 | **Technical Complexity**         | Higher (backend + frontend)                                   | Lower (frontend)                                        |
-| **Pupose**                       | Full working demo project                                     | Layout and form structure demo                          |
-
+| **Pupose**                       | Full CRUD simulation                                          | Basic UI Form layout and control positioning            |
+| **UI Complexity**                | Advanced (DataGridView + TextBoxes + Buttons professionally)  | Basic (Simple TextBoxes and Buttons)                    |
+| **Data Handling**                | Dynamic dummy data + Centered display + Colored rows          | No complex data handling, mainly layout                 |
+| **Real-World Simulation**        | Yes, closer to real application structure                     | No, more like initial layout practice                   |
+| **Skill Level Shown**            | Intermediate VB.NET Developer                                 | Beginner VB.NET Developer                               |
 
 ## Related Project
 Check out the [EmployeeFormProject](https://github.com/CyberKnight2025/EmployeeFormProject) for another VB.NET Windows Forms project!
