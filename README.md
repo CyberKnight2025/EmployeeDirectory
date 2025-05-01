@@ -33,3 +33,6 @@ It allows users to **view, add, update, and delete** employee information using 
 - Add input validation for employee fields.
 - Implement Entity Framework for database operations.
 - Add authentication for admin/user roles.
+
+## Related Project
+Check out the [EmployeeFormProject](https://github.com/CyberKnight2025/EmployeeFormProject) for another VB.NET Windows Forms project!
