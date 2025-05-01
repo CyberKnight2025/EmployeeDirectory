@@ -5,32 +5,39 @@ This project is a VB.NET Windows Forms application that connects to a SQL Server
 
 ## Features
 - Load employee data from SQL Server
-- Display employee data in a DataGridView
-- Add new employees
-- Update existing employee records
+- Display employee records in a DataGridView
+- Add new employee records
+- Update existing employee information
 - Delete selected employees
+- Error Handling using structured Try...Catch blocks
 - Exit application gracefully
-- Try...Catch error handling for SQL operations
+- Simple, scalable design for small to medium-sized datasets
+- Structured code following VB.NET best practices
 
 ## Technical Details
-- Language: VB.NET (Visual Basic .NET)
-- Framework: .NET Framework 4.8
-- Database: SQL Server Express
-- UI Framework: Windows Forms (WinForms)
-- Version Control: GitHub
+- VB.NET (Visual Basic .NET)
+- Windows Forms (WinForms)
+- SQL Server (Local DB / SQLExpress)
+- ADO.NET (SqlConnection, SqlDataAdapter)
 
 ## Setup Instructions
 1. Clone this repository.
-2. Open the solution file (`EmployeeFormProject.sln`) in Visual Studio.
-3. Update the database connection string inside `Form1.vb`.
+2. Open the solution file (`EmployeeDirectory.sln`) in Visual Studio.
+3. Update the database connection string inside App.config if necessary.
 4. Build and run the project.
 
 ## Why This Project
-This project demonstrates core **VB.NET development skills** including working with databases, handling user inputs through forms, applying structured exception handling, and implementing CRUD (Create, Read, Update, Delete) operations.
+This project demonstrates core VB.NET developer skills, including:
+- Database interaction with ADO.NET (SQL Server)
+- Building clean Windows Forms (WinForms) interfaces
+- Applying error handling best practices
+- Structuring a maintainable VB.NET application following real-world development patterns
+- It highlights key abilities needed for mid-level VB.NET Software Developer roles such as at Taylor Corporation.
 
 ## Future Improvements
-- Add search functionality.
-- Improve UI with better styling (modern WinForms).
-- Implement Entity Framework for easier data management.
-- Add user authentication and authorization.
+- Input validation for forms (First Name, Last Name, Department, Title, Status)
+- Search/filter functionality for employees
+- Add pagination for larger employee datasets
+- Secure database operations with parameterized queries (to prevent SQL Injection)
+- Move database connection strings to a secure configuration file
 
