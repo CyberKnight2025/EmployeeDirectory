@@ -34,5 +34,18 @@ It allows users to **view, add, update, and delete** employee information using 
 - Implement Entity Framework for database operations.
 - Add authentication for admin/user roles.
 
+## Project Comparison
+
+| Criteria                         | Employee Directory Project                                    | Employee Form Project                                   |
+|----------------------------------|---------------------------------------------------------------|---------------------------------------------------------|
+| **Database Connection**          | Yes (SQL Server)                                              | No (local UI only)                                      |
+| **DataGridView with Real Data**  | Yes (with sample & color coding                               | No real data, just empty table                          |
+| **CRUD Operations**              | Buttons exist, functionality implied                          | Basic button layout only                                |
+| **Error Handling (Try...Catch**) | Yes (structured)                                              | No                                                      |
+| **Technical Complexity**         | Higher (backend + frontend)                                   | Lower (frontend)                                        |
+| **Pupose**                       | Full working demo project                                     | Layout and form structure demo                          |
+
+
 ## Related Project
 Check out the [EmployeeFormProject](https://github.com/CyberKnight2025/EmployeeFormProject) for another VB.NET Windows Forms project!
+
